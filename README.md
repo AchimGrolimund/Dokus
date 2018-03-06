@@ -1,5 +1,7 @@
 # Dokus
 
+[back to index](index.md)
+
 Hier können/werden Dokumentationen, Anleitungen oder Hilfestellungen gepostet. 
 
 Es können alle von der HF-ICT HE16 mitmachen und hier Ihre Dokues veröffentlichen, welche dan unter folgendem Link als MD-Wiki zufinden sind.
@@ -18,9 +20,9 @@ git clone https://github.com/EvilAcid/Dokus.git
 git clone git@github.com:EvilAcid/Dokus.git
 ```
 
-Anschliessend könnt ihr eure Dateien hinzufügen, bearbeiten und am ende ein Pull-Request senden
+Anschliessend könnt ihr eure Dateien hinzufügen, bearbeiten und am ende ein Pull-Request senden.
 
-```
+Diese werden anschliessend zuerst kurz überprüft, das es keine Fehler gibt und nach dem Mergen sofort (Automatisch) auf den Server geladen.
 
-```
+
 
