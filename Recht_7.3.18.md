@@ -20,6 +20,8 @@ Das Gesetz kann einen Hinweisgeben wie man es auszulegen hat.
 
 ## Richterliche Rechtsfindung
 
+Note: test
+
 
 
 ## Normenlehre
