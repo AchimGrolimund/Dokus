@@ -22,7 +22,7 @@ Das Gesetz kann einen Hinweisgeben wie man es auszulegen hat.
 
 Note: test
 
-
+[gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
 
 ## Normenlehre
 
