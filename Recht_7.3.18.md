@@ -2,7 +2,7 @@
 
 [back to index](index.md)
 
-## Richterliche Rechtsfindung
+## Auslegung
 
 ### Hystorische Auslegung
 
@@ -16,9 +16,9 @@ Die Ansicht der Sitlichkeit hat sich in der laufe der Zeit stark geändert. z.B.
 
 Das Gesetz kann einen Hinweisgeben wie man es auszulegen hat.
 
-Gramatische Auslegung kann jenachdem eine Lücke eröffnen. Pächter einer Parzele. Die pazelle hat 2 Pächter. so entspricht keiner von beidem als Pächter einer Parzelle. 
+**Gramatikalische Auslegung** kann jenachdem eine Lücke eröffnen. Pächter einer Parzele. Die pazelle hat 2 Pächter. so entspricht keiner von beidem als Pächter einer Parzelle. 
 
-
+## Richterliche Rechtsfindung
 
 
 
