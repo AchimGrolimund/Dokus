@@ -25,7 +25,8 @@ Das Gesetz kann einen Hinweisgeben wie man es auszulegen hat.
 Note: test
 
 [gimmick:yuml (type: 'activity', style: 'plain') ]( `Make Coffee´->`want more coffee´ )
-```sequence
+
+``` sequence
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
