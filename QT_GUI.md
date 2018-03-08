@@ -10,7 +10,9 @@ Anschliessen muss man einen Präfix erstellen, in meinemfalle **/StyleSheet** un
 
 dies sieht dan folgendermassen aus:
 
-![QT_GUI_QSS_RES](images/QT_GUI_QSS_RES.png) Note: Bei jeder änderung in der qss datei, **muss** das Projekt neu erstellt werden!
+![QT_GUI_QSS_RES](images/QT_GUI_QSS_RES.png) 
+
+Note: Bei jeder änderung in der qss datei, **muss** das Projekt neu erstellt werden!
 
 
 
@@ -40,5 +42,3 @@ int main(int argc, char *argv[]) {
 ```
 
 note: Wen man an dem QSS eine änderung vornimt, so **muss** man das Projekt **neu erstellen**. ansonsten werden die änderungen nicht angezeigt.
-
-Note: fsfds
