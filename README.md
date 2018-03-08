@@ -24,6 +24,3 @@ Anschliessend könnt ihr eure Dateien hinzufügen, bearbeiten und am ende ein Pu
 
 Diese werden anschliessend zuerst kurz überprüft, das es keine Fehler gibt und nach dem Mergen sofort (Automatisch) auf den Server geladen.
 
-
-
-update 7.3.18 xxx
