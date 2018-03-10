@@ -7,6 +7,7 @@
 
 ## GUI
 * [QT GUI Tips](QT_GUI.md)
+* [QT Threading Tips](QT_Threading.md)
 
 ## RE
 * [Recht vom 7.3.18](Recht_7.3.18.md)
