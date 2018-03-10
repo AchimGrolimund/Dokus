@@ -8,7 +8,7 @@ hat keine Fehler erkennung, ist in schicht 2 und 4 im OSI
 
 32bit grosse adresse
 
-<img src="images/ip1.png" alt="" style="width: 80%;"/>
+<img src="images/ip1.png" alt="" style="width: 70%;"/>
 
 <img src="images/ip2.png" alt="" style="width: 60%;"/>
 
