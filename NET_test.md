@@ -1,15 +1,13 @@
 # NET TEST
 [back to index](index.md)
-## Vlan
-> TEST DO
 
-### Was ist Vlan
+## Was ist Vlan
 
 > Virtuelle LAN
 
 Ein **VLAN** unterteilt ein Netzwerk in **abgeschirmte Segmente** und sorgt so für **mehr Sicherheit**.
 
-### Wozu braucht es Vlan
+## Wozu braucht es Vlan
 
 > Logische Gruppen statt physikalische Segmente
 
@@ -17,7 +15,7 @@ Um Gruppen von Benutzern logisch zusammenzufassen. So werden z.B.: Arbeiter vom 
 
 Dies ermöglicht die Filterung von Broadcasts und bietet Sicherheit und ein Datenflussmanagement. 
 
-### VLAN Tagging (Frame-Tagging)
+## VLAN Tagging (Frame-Tagging)
 
 Die Frame-Header werden gekapselt oder modifiziert um die Frames mit einer VLAN-Kennung zu markieren. Vor der Weiterleitung zum Endgerät wird der Header wider in seine Ursprüngliche Form gebracht.
 
@@ -36,35 +34,35 @@ Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
 >
 > VID **-** VLAN-Identifier:			Identifizierung des VLANs, zu dem der Frame gehört.
 
-### Können Vlan unteerinander Kommunizieren (Layer 3)
+## Können Vlan unteerinander Kommunizieren (Layer 3)
 
 
 
-### repeater verstärker unterschied
-### zugriffsverfahren (wie wird auf das Netz zugegeriffen)
-### jam sequenz
-### min max blocklänge (warum)
-### csma/cd und der duplex modus
-### 4.1 Mac Rahmen Ethernet DIX V2.0 (Felder kennen)
-### wan braucehn wir 4 drähte und wan 8? für 1 gb bracuhts 8
-### warum und wan muss man kreuzen
+## repeater verstärker unterschied
+## zugriffsverfahren (wie wird auf das Netz zugegeriffen)
+## jam sequenz
+## min max blocklänge (warum)
+## csma/cd und der duplex modus
+## 4.1 Mac Rahmen Ethernet DIX V2.0 (Felder kennen)
+## wan braucehn wir 4 drähte und wan 8? für 1 gb bracuhts 8
+## warum und wan muss man kreuzen
 
-## thema switch
+# thema switch
 
-### layer 2 switch
-### wie feunktioniert und was ist die aufgabe eines layer 2 switches (port macaddresse)
-### looding, broatcaast an alle etc
-### methoden zum switchen
-### 2.2.2.1
-### 2.2.2.2
-### spanning tree (beurteilen welcher switch wird root bridge etc. anhand einer config beurteilen ob und wie es funktioniert
-### es gibt kosten die festgelegt werden, anhand der wird der weg festgelegt
-### Beim starten
-#### Blocking
-#### listening
-#### learning
-### Bridgeproiotyti
-### designatet port
-### Sicherheit lesen
-#### flooting spoofing
-#### wie schützt man einen switch
+## layer 2 switch
+## wie feunktioniert und was ist die aufgabe eines layer 2 switches (port macaddresse)
+## looding, broatcaast an alle etc
+## methoden zum switchen
+## 2.2.2.1
+## 2.2.2.2
+## spanning tree (beurteilen welcher switch wird root bridge etc. anhand einer config beurteilen ob und wie es funktioniert
+## es gibt kosten die festgelegt werden, anhand der wird der weg festgelegt
+## Beim starten
+### Blocking
+### listening
+### learning
+## Bridgeproiotyti
+## designatet port
+## Sicherheit lesen
+### flooting spoofing
+### wie schützt man einen switch
