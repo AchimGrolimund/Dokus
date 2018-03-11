@@ -25,16 +25,18 @@ Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
 
 <img src="images/NET_gframe-format.png" alt="" width="400">
 
-> TPID **-** Tag Protocol Identifier :	Fester Wert 8100hex. Frame trägt die 802.1Q Information.
->
-> TCI **-** Tag Control Information:	PCP - Priority Code Point: Benutzer-Prioritätsinformationen.
->
-> DEI **-** Drop Eligible Indicator:		Kann seperat oder in Verbindung mit PCP verwendet werden, um anzuzeigen,
-> ​							dass Frames in der Gegenwart von Staus fallen gelassen werden können (ehemals CFI).
->
-> VID **-** VLAN-Identifier:			Identifizierung des VLANs, zu dem der Frame gehört.
+| Kürzel | Beschreibung |
+| :----------------------------------- | :----------------------------------------------------------- |
+| **TPID** **-** Tag Protocol Identifier : | Fester Wert 8100hex. Frame trägt die 802.1Q Information. |
+|         **TCI** **-** Tag Control Information:TCI **-** Tag Control Information:                         | **PCP** - Priority Code Point: Benutzer-Prioritätsinformationen. |
+| **DEI** **-** Drop Eligible Indicator: | Kann seperat oder in Verbindung mit PCP verwendet werden, um anzuzeigen, dass Frames in der Gegenwart von Staus fallen gelassen werden können (ehemals CFI). |
+| **VID** **-** VLAN-Identifier:       | Identifizierung des VLANs, zu dem der Frame gehört.          |
+
+​		
 
 ## Können Vlan unteerinander Kommunizieren (Layer 3)
+
+
 
 
 
