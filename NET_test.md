@@ -43,13 +43,13 @@ Für eine Kommunikation unter den VLANs müssen diese über einen Layer 3 verfü
 ## Unterschied Repeater und Verstärker
 
 ### Verstärker
-<img src="images/NET_BreitbandLan.png" alt="" width="300">
+<img src="images/NET_breitbandLan.png" alt="" width="300">
 Die Aufgabe des Verstärkers, ist die Signale zu verstärken. Einsatz in Breitbandnetzen. 
 
 Note: Hier werden auch fehlerhafte Signale verstärkt!
 
 ### Repeater
-<img src="images/NET_BasisbandLan.png" alt="" width="300">
+<img src="images/NET_basisbandLan.png" alt="" width="300">
 Der Repeater **regeneriert** die Signale, welche durch Induktiviäten und Kapazitäten (Übertragungstechnik) verändert wurden. Das Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf das Übertragungsmedium gelegt. Einsatz in Basisband-Lan
 
 ## zugriffsverfahren (wie wird auf das Netz zugegeriffen)
