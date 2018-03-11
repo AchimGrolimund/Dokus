@@ -36,11 +36,22 @@ Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
 
 ## Können Vlan unteerinander Kommunizieren (Layer 3)
 
+Für eine Kommunikation unter den VLANs müssen diese über einen Layer 3 verfügen (Vermittlungsschicht).
 
 
 
+## Unterschied Repeater und Verstärker
 
-## repeater verstärker unterschied
+### Verstärker
+<img src="images/NET_BreitbandLan.png" alt="" width="300">
+Die Aufgabe des Verstärkers, ist die Signale zu verstärken. Einsatz in Breitbandnetzen. 
+
+Note: Hier werden auch fehlerhafte Signale verstärkt!
+
+### Repeater
+<img src="images/NET_BasisbandLan.png" alt="" width="300">
+Der Repeater **regeneriert** die Signale, welche durch Induktiviäten und Kapazitäten (Übertragungstechnik) verändert wurden. Das Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf das Übertragungsmedium gelegt. Einsatz in Basisband-Lan
+
 ## zugriffsverfahren (wie wird auf das Netz zugegeriffen)
 ## jam sequenz
 ## min max blocklänge (warum)
