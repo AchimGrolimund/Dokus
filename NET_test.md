@@ -7,17 +7,34 @@
 
 > Virtuelle LAN
 
-Ein Virtual LAN unterteilt ein Netzwerk in abgeschirmte Segmente und sorgt so für mehr Sicherheit.
+Ein **VLAN** unterteilt ein Netzwerk in **abgeschirmte Segmente** und sorgt so für **mehr Sicherheit**.
 
-Die Teilnehmer eines Segments können sich dabei an beliebigen Orten im physikalischen LAN befinden.
-Eine sehr wichtige Technik beim Ethernet-Switching sind VLANs (Virtual LAN, virtuelles LAN). Hierbei werden Workstations und Server mit Hilfe von Switches zu logischen Gruppen zusammengefasst. Alle Geräte in einem VLAN können zunächst nur ausschließlich mit den anderen Geräten im eigenen VLAN kommunizieren, sodass das geswitchte Netzwerk wie eine Anzahl mehrerer, nicht verbundener LANs zu betrachten ist. Es ist häufig schwierig, ein VLAN exakt zu definieren, denn die verschiedenen Hersteller verwenden unterschiedliche Ansätze zur Einrichtung von VLANs.
-Unternehmen nutzen VLANs häufig als Möglichkeit, eine bestimmte Gruppe von Benutzern logisch zusammenzufassen. Man kann dies mit einem traditionellen Arbeitsplatz vergleichen, wo mehrere Abteilungen häufig in einem Gebäude unterbracht sind; insofern kann man ein auf die Abteilung begrenztes traditionelles LAN als natürliches Abbild dieser Anforderung betrachten.
-Heutzutage sind die Mitarbeiter eines Unternehmens mit ihrem Arbeitsplatz jedoch nicht mehr an einen bestimmten Standort im Unternehmen gebunden, da VLANs die Bildung »logischer« Abteilungsbereiche ermöglicht haben. So werden Mitarbeiter der Marketingabteilung eines Unternehmens zu Mitgliedern des Marketing-VLAN gemacht, während Entwickler und Techniker im Entwicklungs-VLAN platziert werden.
-VLANs bieten Sicherheit, Skalierbarkeit und einfacheres Netzmanagement. Router in VLAN-Topologien ermöglichen die Filterung von Broadcasts und bieten Sicherheit und Datenflussmanagement.
+### Wozu braucht es Vlan
 
-### wozu bracht es Vlan
+> Logische Gruppen statt physikalische Segmente
 
-### Vlan tagging
+Um Gruppen von Benutzern logisch zusammenzufassen. So werden z.B.: Arbeiter vom Marketing zu Mitgliedern eines Marketing-VLANs gemacht.
+
+Dies ermöglicht die Filterung von Broadcasts und bietet Sicherheit und ein Datenflussmanagement. 
+
+### VLAN Tagging (Frame-Tagging)
+
+Die Frame-Header werden gekapselt oder modifiziert um die Frames mit einer VLAN-Kennung zu markieren. Vor der Weiterleitung zum Endgerät wird der Header wider in seine Ursprüngliche Form gebracht.
+
+Mit dieser VLAN-Kennung wird logisch ermittelt, welche Pakete zu welcher VLAN-Gruppe gehören.
+
+Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
+
+<img src="images/NET_gframe-format.png" alt="" width="400">
+
+> TPID **-** Tag Protocol Identifier :	Fester Wert 8100hex. Frame trägt die 802.1Q Information.
+>
+> TCI **-** Tag Control Information:	PCP - Priority Code Point: Benutzer-Prioritätsinformationen.
+>
+> DEI **-** Drop Eligible Indicator:		Kann seperat oder in Verbindung mit PCP verwendet werden, um anzuzeigen,
+> ​							dass Frames in der Gegenwart von Staus fallen gelassen werden können (ehemals CFI).
+>
+> VID **-** VLAN-Identifier:			Identifizierung des VLANs, zu dem der Frame gehört.
 
 ### Können Vlan unteerinander Kommunizieren (Layer 3)
 
