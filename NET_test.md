@@ -1,13 +1,14 @@
-<h1 align="center">NET TEST</h1>
+# NET TEST
+
 [back to index](index.md)
 
-<h2 align="center">Was ist Vlan</h2>
+## Was ist Vlan
 
 > Virtuelle LAN
 
 Ein **VLAN** unterteilt ein Netzwerk in **abgeschirmte Segmente** und sorgt so für **mehr Sicherheit**.
 
-<h2 align="center">Wozu braucht es Vlan</h2>
+## Wozu braucht es Vlan
 
 
 > Logische Gruppen statt physikalische Segmente
@@ -15,7 +16,8 @@ Ein **VLAN** unterteilt ein Netzwerk in **abgeschirmte Segmente** und sorgt so f
 Um Gruppen von Benutzern logisch zusammenzufassen. So werden z.B.: Arbeiter vom Marketing zu Mitgliedern eines Marketing-VLANs gemacht.
 
 Dies ermöglicht die Filterung von Broadcasts und bietet Sicherheit und ein Datenflussmanagement. 
-<h2 align="center">VLAN Tagging (Frame-Tagging)</h2>
+
+## VLAN Tagging (Frame-Tagging)
 
 
 Die Frame-Header werden gekapselt oder modifiziert um die Frames mit einer VLAN-Kennung zu markieren. Vor der Weiterleitung zum Endgerät wird der Header wider in seine Ursprüngliche Form gebracht.
@@ -34,13 +36,13 @@ Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
 | **VID** **-** VLAN-Identifier:       | Identifizierung des VLANs, zu dem der Frame gehört.          |
 
 ​		
-<h2 align="center">Können Vlan unteerinander Kommunizieren (Layer 3)</h2>
+
+## Können Vlan unteerinander Kommunizieren (Layer 3)
 
 
 Für eine Kommunikation unter den VLANs müssen diese über einen Layer 3 verfügen (Vermittlungsschicht).
 
-
-<h2 align="center">Unterschied Repeater und Verstärker</h2>
+## Unterschied Repeater und Verstärker
 
 
 ### Verstärker
