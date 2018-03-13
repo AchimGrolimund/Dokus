@@ -23,6 +23,10 @@
 * Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf Übertragungsmedium gelegt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+![Net Gframe Format](/uploads/images/net-gframe-format.png "Net Gframe Format")
+>>>>>>> 7643cfb48b23c55f71c81af18aecbe8e2e4da2fa
 =======
 ![Net Gframe Format](/uploads/images/net-gframe-format.png "Net Gframe Format")
 >>>>>>> 7643cfb48b23c55f71c81af18aecbe8e2e4da2fa
