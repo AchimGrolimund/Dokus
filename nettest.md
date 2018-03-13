@@ -1,5 +1,5 @@
 <!-- TITLE: Netzwerk Prüfung -->
-<!-- SUBTITLE: Infos zur Net Prüfung -->
+<!-- SUBTITLE: Infos zur Net Prüfung vom 23.6.18 -->
 
 
 ## Was ist Vlan
@@ -12,10 +12,21 @@ Ein **VLAN** unterteilt ein Netzwerk in **abgeschirmte Segmente** und sorgt so f
 
 
 > Logische Gruppen statt physikalische Segmente
+>
+> Informationsaustausch über VLAN
 
 Um Gruppen von Benutzern logisch zusammenzufassen. So werden z.B.: Arbeiter vom Marketing zu Mitgliedern eines Marketing-VLANs gemacht.
 
 Dies ermöglicht die Filterung von Broadcasts und bietet Sicherheit und ein Datenflussmanagement. 
+
+## Trunked Port
+
+Übermittelt Tag
+
+## Access
+
+Übermittelt Tag nicht
+Verschiedene Vlans können nicht miteinander kommunizieren -> Router notwendig.
 
 ## VLAN Tagging (Frame-Tagging)
 
@@ -55,30 +66,61 @@ Note: Hier werden auch fehlerhafte Signale verstärkt!
 <img src="images/NET_basisbandLan.png" alt="" width="300">
 Der Repeater **regeneriert** die Signale, welche durch Induktiviäten und Kapazitäten (Übertragungstechnik) verändert wurden. Das Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf das Übertragungsmedium gelegt. Einsatz in Basisband-Lan
 
-## zugriffsverfahren (wie wird auf das Netz zugegeriffen)
-## jam sequenz
-## min max blocklänge (warum)
-## csma/cd und der duplex modus
-## 4.1 Mac Rahmen Ethernet DIX V2.0 (Felder kennen)
-## wan braucehn wir 4 drähte und wan 8? für 1 gb bracuhts 8
-## warum und wan muss man kreuzen
+## Lan
 
-# thema switch
+Distanz -> 100m
+Repeater -> Nur weiterleiten
+Verstärker -> Signal neu aufbauen
+Netzzugriff -> BUS (TCM, ACD)
+JAM Sequenz -> Kollision
+Min & max Blocklänge wiso gibt es das -> Erklären
+3.5 CSM ACD Duplex-Modus wann und wiso
+4.1 MAC Rahmen (Was die Felder bedeuten)
+4.2
 
-## layer 2 switch
-## wie feunktioniert und was ist die aufgabe eines layer 2 switches (port macaddresse)
-## looding, broatcaast an alle etc
-## methoden zum switchen
-## 2.2.2.1
-## 2.2.2.2
-## spanning tree (beurteilen welcher switch wird root bridge etc. anhand einer config beurteilen ob und wie es funktioniert
-## es gibt kosten die festgelegt werden, anhand der wird der weg festgelegt
-## Beim starten
-### Blocking
-### listening
-### learning
-## Bridgeproiotyti
-## designatet port
-## Sicherheit lesen
-### flooting spoofing
-### wie schützt man einen switch
+10Base 100Base GBase -> Nicht anschauen
+Wann 4 wann 8 Drähte
+Gigabite 8 Drähte
+Anderes 4 Drähte
+Gekreuztes Kabel, wiso und wann.
+PC <-> PC
+
+## Switch
+
+### Layer 2 Switches
+
+Funktion und Aufgabe
+
+	Switchen
+	Wann wird geswitch
+	Was wird benötigt(Kritieren)
+	Wann nicht switchen
+	Broadcast Flouding
+	2.2.2.1 (Methoden) -> Erklären
+Funktionsweise
+	Port MAC Adresse wird gemerkt
+Spanning Tree
+	Aufgabe: Schema -> wer wird root bridge welche ports inaktive.
+	Prio / Macadresse / Port
+	Wie finden sie die Prio von Rootbridge heraus (Befehl) nicht auswendig
+	Kosten für Routen -> Benutzt für berechnung
+	Start
+		Blocking
+		Listining
+		Learning
+		Dauer: 20sec
+		Danach Forward oder Blocking
+	Bridnge priority
+	Designated Port
+	Interface costs
+
+Sicherheit (Durchlesen)
+
+##Layer 3 Switch nicht wissen
+
+Übungen
+	Ethernet
+	Switching VLan
+	Zusätlichen Switch einhängen.
+	Load Balancing	
+	VLan Spanning-Tree
