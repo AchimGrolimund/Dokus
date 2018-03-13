@@ -43,7 +43,7 @@ Anschliessen muss man einen Präfix erstellen, in meinemfalle **/StyleSheet** un
 
 dies sieht dan folgendermassen aus:
 
-![QT_GUI_QSS_RES](images/QT_GUI_QSS_RES) 
+![Qt Gui Qss Res](/uploads/images/qt-gui-qss-res.png "Qt Gui Qss Res")
 
 Note: Bei jeder änderung in der qss datei, **muss** das Projekt neu erstellt werden!
 
