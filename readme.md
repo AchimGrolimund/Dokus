@@ -2,7 +2,6 @@
 <!-- SUBTITLE: A Readme of the HF-ICT Wiki -->
 
 
-
 Hier können/werden Dokumentationen, Anleitungen oder Hilfestellungen gepostet. 
 
 Es können alle von der HF-ICT HE16 mitmachen und hier Ihre Dokues veröffentlichen, welche dan unter folgendem Link als MD-Wiki zufinden sind.
