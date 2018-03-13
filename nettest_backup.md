@@ -30,14 +30,29 @@
 ## 3.3 Maximale Blocklänge
 * Maximale Blocklänge: 1518 Byte (ohne Berücksitigung von Präämbel und Start Frame Delimiter)
 * Damit nicht eine Station den Bus für längere Zeit sich beansprucht, gibt es maximale Blocklängen
-## 3.5 CSM ACD Duplex-Modus: Wann und wieso
-...
+## 3.5 CSMA/CD und der Duplex-Modus
 
-## 4.1 MAC Rahmen (Was die Felder bedeuten)
-...
-## 4.2
-...
-## ...
+* CSMA/CD: Im Sicherungsschicht des OSI-Modells
+* Im Halbduplexmodus ist CSMA/CD eingeschaltet
+  * Von der Ethernetschnittstelle (z.B. Netzwerkkarte) durchgeführt
+* Im Vollduplexmodus ist CSMA/CD ausgeschaltet
+* Kollisionen verhindern: Zwei Stationen benutzen das gleiche Übertragungsmedium
+  * **Beispiel**: Durch Einsatz eines Switches
+
+# 4 Der Aufbau des Rahmens
+
+## 4.1 MAC-Rahmen Ethernet DIX V2.0
+
+<img src="uploads/images/MAC-Rahmen_DIX.png" alt="" width="">
+
+## 4.2 MAC-Rahmen nach IEEE 802.3
+
+<img src="uploads/images/MAC-Rahmen_IEEE.png" alt="" width="">
+
+xyz
+
+## 4.x Diverses
+
 10Base 100Base GBase -> Nicht anschauen
 Wann 4 wann 8 Drähte
 Gigabite 8 Drähte
