@@ -1,8 +1,5 @@
-
-
-# Recht 7.3.18
-
-[back to index](index.md)
+<!-- TITLE: Recht -->
+<!-- SUBTITLE: Recht vom 7.3.18 -->
 
 ## Auslegung
 

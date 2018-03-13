@@ -1,6 +1,6 @@
-# QT GUI
+<!-- TITLE: QT GUI -->
+<!-- SUBTITLE: all about QT GUI programming -->
 
-[back to index](index.md)
 
 ## Disigne Palette (Simpel)
 

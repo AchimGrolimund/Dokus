@@ -1,6 +1,6 @@
-# NET TEST
+<!-- TITLE: Netzwerk Prüfung -->
+<!-- SUBTITLE: Infos zur Net Prüfung -->
 
-[back to index](index.md)
 
 ## Was ist Vlan
 

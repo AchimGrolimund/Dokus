@@ -1,5 +1,7 @@
-# IP
-[back to index](index.md)
+<!-- TITLE: Net IP -->
+<!-- SUBTITLE: All about IP -->
+
+
 > IP entstehung 1974
 
 IP ist verbindungslos, es ist packetübermittlung, hat die aufgabe  den weg zwischen A und B zu finden
