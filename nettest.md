@@ -51,12 +51,16 @@
 
 ## 4.x Diverses
 
-10Base 100Base GBase -> Nicht anschauen
-Wann 4 wann 8 Drähte
-Gigabite 8 Drähte
-Anderes 4 Drähte
-Gekreuztes Kabel, wiso und wann.
-PC <-> PC
+* Wann 4 wann 8 Drähte 
+* Gigabite 8 Drähte
+* Anderes 4 Drähte
+* Gekreuztes Kabel, wieso und wann
+* PC <-> PC
+
+### Nicht anschauen
+
+* 10Base / 100Base / 1000Base
+
 # Switches
 ## Layer 2 Switches
 ### Funktion und Aufgabe
