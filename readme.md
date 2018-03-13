@@ -19,6 +19,14 @@ git clone https://github.com/EvilAcid/Dokus.git
 //SSH
 git clone git@github.com:EvilAcid/Dokus.git
 ```
+Note: Wichtig dabei ist aber, dass wen ihr neue Dateien erstellt, diese in der home.md einfügt wie die bisherigen, ohne das .md am ende.
+
+Note: Bei neuerstellten dateien sollt ijr am anfang den untenstehenden code einfügen
+
+```
+<!-- TITLE: EUER TITEL -->
+<!-- SUBTITLE: A quick summary of Home -->
+```
 
 Anschliessend könnt ihr eure Dateien hinzufügen, bearbeiten und am ende ein Pull-Request senden.
 
