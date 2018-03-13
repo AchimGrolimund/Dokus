@@ -37,7 +37,7 @@ Mit dieser VLAN-Kennung wird logisch ermittelt, welche Pakete zu welcher VLAN-Gr
 
 Es gibt mehrere solche Bündlungsmethoden **auch Trunking** genannt.
 
-<img src="images/NET_gframe-format.png" alt="" width="400">
+![Net Gframe Format](/uploads/images/net-gframe-format.png "Net Gframe Format")
 
 | Kürzel | Beschreibung |
 | :----------------------------------- | :----------------------------------------------------------- |
