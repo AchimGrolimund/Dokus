@@ -9,7 +9,7 @@
 ## BS
 
 * [LinuxCommands](linuxcommands)
-* [Unterricht fom 3.3.18](bs3318)
+* [Unterricht vom 3.3.18](bs3318)
 
 ## GUI
 * [QT GUI Tips](qtgui)
