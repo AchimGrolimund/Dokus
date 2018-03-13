@@ -57,13 +57,13 @@ Für eine Kommunikation unter den VLANs müssen diese über einen Layer 3 verfü
 
 
 ### Verstärker
-<img src="images/NET_breitbandLan.png" alt="" width="300">
+![Net Breitbandlan](/uploads/images/net-breitbandlan.png "Net Breitbandlan")
 Die Aufgabe des Verstärkers, ist die Signale zu verstärken. Einsatz in Breitbandnetzen. 
 
 Note: Hier werden auch fehlerhafte Signale verstärkt!
 
 ### Repeater
-<img src="images/NET_basisbandLan.png" alt="" width="300">
+![Net Basisbandlan](/uploads/images/net-basisbandlan.png "Net Basisbandlan")
 Der Repeater **regeneriert** die Signale, welche durch Induktiviäten und Kapazitäten (Übertragungstechnik) verändert wurden. Das Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf das Übertragungsmedium gelegt. Einsatz in Basisband-Lan
 
 ## Lan
