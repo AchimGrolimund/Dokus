@@ -8,20 +8,20 @@
 
 ## BS
 
-* [LinuxCommands](LinuxCommands)
+* [LinuxCommands](linuxcommands)
 
 ## GUI
-* [QT GUI Tips](QT_GUI)
-* [QT Threading Tips](QT_Threading)
+* [QT GUI Tips](qt_gui)
+* [QT Threading Tips](qt_threading)
 
 ## RE
-* [Recht vom 7.3.18](Recht_7.3.18)
+* [Recht vom 7.3.18](recht_7.3.18)
 
 ## DB
 
 ## NET
-* [NET Test 17.3.18](NET_test)
-* [IP](IP)
+* [NET Test 17.3.18](net_test)
+* [IP](ip)
 
 ## TI
 
