@@ -10,9 +10,9 @@ hat keine Fehler erkennung, ist in schicht 2 und 4 im OSI
 
 32bit grosse adresse
 
-<img src="images/ip1.png" alt="" style="width: 70%;"/>
+![Ip 1](/uploads/images/ip-1.png "Ip 1")
 
-<img src="images/ip2.png" alt="" style="width: 60%;"/>
+![Ip 2](/uploads/images/ip-2.png "Ip 2")
 
 
 
@@ -36,5 +36,6 @@ Aufgrund dieser Einschränkungen kann es also nur 126 Klasse-A Netze geben. 1. B
 Vor der Einführung privater IP-Adressen wurde für jeden Teilnehmer eines TCP/IP Netzwerks eine offiziell registrierte IP-Adresse benötigt. Solange ein Netz nicht an das Internet angeschlossen war konnte man sich zwar darüber hinwegsetzen und sich einfach eine IP-Adresse aneignen, sobald aber ein Internetanschluss benötigt wurde, musste eine offizielle IP-Adresse beantragt und alle Hosts umadressiert werden.
 Durch die rasante Verbreitung des Internets wurden entsprechend viele IP-Adressen verbraucht. Das führte zur Befürchtung, dass uns die IP-Adressen schnell ausgehen werden (IP-Adresskrise). Ein erfolgreicher Lösungsansatz war die „Erfindung“ sog. privater IP-Adressen. (RFC 1918, Februar 1996)
 
-<img src="images/privIpAddBereich.png" alt="" style="width: 85%;"/>
+![Privipaddbereich](/uploads/images/privipaddbereich.png "Privipaddbereich")
+
 
