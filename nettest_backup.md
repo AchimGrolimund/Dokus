@@ -10,14 +10,14 @@
 
 ## 2.2 Unterschied Repeater und Verstärker
 ### Verstärker
-<img src="uploads/images/NET_breitbandLan.png" alt="" width="300">
+<img src="uploads/images/net-breitbandlan.png" alt="" width="300">
 
 * Die Aufgabe des Verstärkers, ist die Signale zu verstärken
 * Einsatz in Breitbandnetzen
 * Wichtig: Hier werden auch fehlerhafte Signale verstärkt!
 
 ### Repeater
-<img src="uploads/images/NET_basisbandLan.png" alt="" width="300">
+<img src="uploads/images/net-basisbandlan.png" alt="" width="300">
 
 * **Regeneriert** die Signale, welche durch Induktiviäten und Kapazitäten (Übertragungstechnik) verändert wurden
 * Signal wird wieder sauber aufbereitet und in der ursprünglichen Form auf Übertragungsmedium gelegt
