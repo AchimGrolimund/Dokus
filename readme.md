@@ -19,6 +19,7 @@ git clone https://github.com/EvilAcid/Dokus.git
 //SSH
 git clone git@github.com:EvilAcid/Dokus.git
 ```
+ 
 ```
 Note: Wichtig dabei ist aber, dass wen ihr neue Dateien erstellt, diese in der home.md einfügt wie die bisherigen, ohne das .md am ende.
 ```
@@ -37,3 +38,11 @@ Anschliessend könnt ihr eure Dateien hinzufügen, bearbeiten und am ende ein Pu
 
 Diese werden anschliessend zuerst kurz überprüft, das es keine Fehler gibt und nach dem Mergen sofort (Automatisch) auf den Server geladen.
 
+
+### Emojis
+In dieser liste seht ihr alle möglichen Emojis welche ihr in dem Wiki gebrauchen könnt.  
+Es kann sein das diese im Wiki nicht genau gleich aussehen.
+
+[Liste mit Emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+
+---
