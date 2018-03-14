@@ -43,6 +43,6 @@ Diese werden anschliessend zuerst kurz überprüft, das es keine Fehler gibt und
 In dieser liste seht ihr alle möglichen Emojis welche ihr in dem Wiki gebrauchen könnt.  
 Es kann sein das diese im Wiki nicht genau gleich aussehen.
 
-[Liste mit Emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
+:point_right:  [Liste mit Emojis](https://www.webpagefx.com/tools/emoji-cheat-sheet/)  :point_left:
 
 ---
