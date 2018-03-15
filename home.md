@@ -1,5 +1,5 @@
-<!-- TITLE: Home -->
-<!-- SUBTITLE: A quick summary of Home -->
+<!-- TITLE: Übersicht -->
+<!-- SUBTITLE: Übersicht über alle Fächer unt deren Wichtige Themen -->
 
 # Home
 * [Readme](readme)
