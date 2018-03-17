@@ -38,3 +38,31 @@ QMutexLocker locker(mutex);
 //Code here
 return;
 ```
+### QWaitCondition
+
+mit dem **QWaitCondition** kann man einen Thred in den wartenden status versetzen und so das Mutex wider zurück geben das andere Threads weiterarbeiten können.
+
+An der Stelle an dem der Thread wider "Aufgeweckt" werden darf, kamm man den Thread mitels **..wakeAll()** wider in den **Ready-Modus** gesetzt werden. 
+
+``` cpp
+#include <QWaitCondition>
+#include <QMutex> 
+#include <QMutexLocker> 
+QMutex mutex = new QMutex();
+waitCondition = new QWaitCondition();
+
+....
+QMutexLocker locker(mutex);
+//Code here
+if (false){
+    waitCondition->wait(mutex);
+}
+return;
+}
+
+void foo(){
+    //Code here
+    waitCondition->wakeAll();
+}
+```
+
