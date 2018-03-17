@@ -66,3 +66,46 @@ void foo(){
 }
 ```
 
+
+
+## Threads in der GUI
+
+Wir wollen Threads nicht nur Syncen, sondern auch in einer GUI richtig benutzen.
+
+#### Erstellt im Unterricht an der Tafel
+
+``` cpp
+int main(int argc, char **arg){
+    QApplication app(argc,argv);
+    Widget w;
+    w.show();
+    return app.exec();
+}
+
+//........................................................
+
+class Widget : public QWidget{
+    public:
+    	void paintEvent(QPaintEvent *event);
+    	//Setter und Getter für x & y
+    private:
+    	int x;
+    	int y;
+}
+
+//........................................................
+
+void Widget::paintEvent(QPaintEvent *event){
+    QPainter painter(this);
+    painter.drawArc(x,y,100,100,0,5760)
+}
+
+//........................................................
+
+class Thread : public QThread(){
+    
+}
+```
+
+
+
