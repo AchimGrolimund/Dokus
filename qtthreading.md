@@ -74,7 +74,14 @@ Wir wollen Threads nicht nur Syncen, sondern auch in einer GUI richtig benutzen.
 
 #### Erstellt im Unterricht an der Tafel
 
+Nur als Ansicht, **nicht lauffähig**
+
 ``` cpp
+#include <QApplication>
+#include <QPainter>
+#include <QPaintEvent>
+#include <QWidget>
+
 int main(int argc, char **arg){
     QApplication app(argc,argv);
     Widget w;
