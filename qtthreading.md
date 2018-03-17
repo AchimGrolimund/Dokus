@@ -54,7 +54,7 @@ waitCondition = new QWaitCondition();
 ....
 QMutexLocker locker(mutex);
 //Code here
-if (false){
+while (false){ //muss ein While sein, das der aufgeweckte nochmals ausgeführt wird.
     waitCondition->wait(mutex);
 }
 return;
