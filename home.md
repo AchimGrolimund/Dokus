@@ -21,6 +21,7 @@
 
 ## RE
 * [Recht vom 7.3.18](recht1)
+* [Recht vom 21.3.18 und Prüfungsthemen](recht2)
 
 ## DB
 
