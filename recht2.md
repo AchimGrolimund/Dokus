@@ -8,7 +8,4 @@ kommt noch
 
 ## Normenlehre
 
-
- 
-
-
+![echtpyramid](uploads/images/rechtpyramide.png)
