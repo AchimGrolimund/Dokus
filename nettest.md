@@ -41,6 +41,13 @@
 
 # 4 Der Aufbau des Rahmens
 
+Wichtigste Felder:
+
+* SA = Source Address
+* DA = Destination Address
+
+
+
 ## 4.1 MAC-Rahmen Ethernet DIX V2.0
 
 <img src="uploads/images/MAC-Rahmen_DIX.png" alt="" width="">
@@ -63,13 +70,42 @@
 
 # Switches
 ## Layer 2 Switches
-### Funktion und Aufgabe
+
+### Warum L2-Switches
+
+
+### Quick Facts
 * Switchen
 * Wann wird geswitch
 * Was wird benötigt(Kritieren)
 * Wann nicht switchen
 * Broadcast Flouding
-### 2.2.2.1 (Methoden) -> Erklären
+### 2.2.2.1 Cut-through
+#### Fast-Forward-Switching
+
+* Sehr schnelle Methode
+* Von besseren Switches implementiert
+* Frame wird noch während dem empfangen direkt zur Ziel-MAC-Adresse weitergeschickt
+* Frame wird nicht auf Fehler überprüft
+
+#### Fragment-Free
+
+* Langsamer als Fast-Forward-Switching, schneller als Store-and-Forward (s. u.)
+* ​
+* Prüft, ob Frame grösser ist als minimale Blocklänge (> 64 Bytes)
+  * Falls Ja, dann weitergeschickt zum Zielport ohne CRC-Prüfung
+  * Falls Nein, dann verworfen
+
+### 2.2.2.2 Store-and-Forward
+
+* Sichertste, aber auch langsamste Methode
+* Grösste Latenzzeit
+* ​
+
+### 2.2.2.3 Error-Free-Cut-Through/Adaptive Switching
+
+
+
 ### Funktionsweise
 * Port MAC Adresse wird gemerkt
 ## Spanning Tree
@@ -92,7 +128,7 @@
 ## Layer 3 Switch
 Kommt nicht in der Prüfung dran
 # VLAN
-## Was ist Vlan
+## Was ist VLAN (Quick Facts)
 * Unterteilen ein bestehendes physisches Netzwerk in mehrere logische Netzwerke (**abgeschirmte Segmente**)
 * Sorgt so für **mehr Sicherheit**
 * Jedes VLAN bildet eine eigene Broadcast-Domain
