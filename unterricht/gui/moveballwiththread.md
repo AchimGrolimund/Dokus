@@ -1,13 +1,13 @@
 <!-- TITLE: QT Threading move Ball -->
 <!-- SUBTITLE: 18.03.2018 Ball mit einem Thread in der GUI bewegen -->
 
-## Infos
+# Infos
 
 ![al](../../uploads/images/ball.gif)
 
-## Files
+# Files
 
-### Main
+## Main
 ``` cpp
 #include "widget.h"
 #include <QApplication>
@@ -39,8 +39,8 @@ int main(int argc, char *argv[]) {
 	return a.exec();
 }
 ```
-### Thread
-#### Thread.h
+## Thread
+### Thread.h
 
 ``` cpp
 #ifndef THREAD_H
@@ -63,7 +63,7 @@ class Thread : public QThread {
 
 ```
 
-#### Thread.cpp
+### Thread.cpp
 
 ``` cpp
 #include "thread.h"
@@ -88,8 +88,8 @@ void Thread::run() {
 
 
 
-### Widget
-#### Widget.h
+## Widget
+### Widget.h
 
 ``` cpp
 #ifndef WIDGET_H
@@ -119,7 +119,7 @@ class Widget : public QWidget {
 
 
 
-#### Widget.cpp
+### Widget.cpp
 
 ``` cpp
 #include "widget.h"
@@ -171,4 +171,3 @@ void Widget::paintEvent(QPaintEvent *event) {
 	painter.drawEllipse(x, y, RADIUS, RADIUS);
 }
 ```
-
