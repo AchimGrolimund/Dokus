@@ -1,7 +1,7 @@
 <!-- TITLE: C++ Doku -->
 <!-- SUBTITLE: Nützliche Infos zu C++ & QT -->
 
-## Permutatioenen
+## Permutationen
 http://www.cplusplus.com/reference/algorithm/next_permutation/
 
 ### Example
@@ -24,3 +24,21 @@ int main () {
 
   return 0;
 ```
+
+## For Schleifen
+
+### Example
+
+```cpp
+int main() {
+    String myString = "HELLO";
+    Vector<char> myVec={};
+    
+    for(auto x : myString){
+        myVec.pushBack(x);
+        cout << x << endl;
+    }
+    return;
+}
+```
+
