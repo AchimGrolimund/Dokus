@@ -19,6 +19,7 @@
 * [QT GUI Tips](qtgui)
 * [QT Threading Tips](qtthreading)
 * [new QT5 connect Statement](qt5connectstatement)
+* [Test Dokut](cpptestdoku)
 
 ## RE
 * [Recht vom 7.3.18](recht1)
