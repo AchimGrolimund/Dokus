@@ -1,10 +1,10 @@
 <!-- TITLE: C++ Doku -->
 <!-- SUBTITLE: Nützliche Infos zu C++ & QT -->
 
-##Permutatioenen
+## Permutatioenen
 http://www.cplusplus.com/reference/algorithm/next_permutation/
 
-###Example
+### Example
 ```cpp
 // next_permutation example
 #include <iostream>     // std::cout
@@ -18,10 +18,9 @@ int main () {
   std::cout << "The 3! possible permutations with 3 elements:\n";
   do {
     std::cout << myints[0] << ' ' << myints[1] << ' ' << myints[2] << '\n';
-  } while ( std::next_permutation(myints,myints+3) );// String.begin, String.end
+  } while ( std::next_permutation(myints,myints+3) );	// String.begin, String.end
 
   std::cout << "After loop: " << myints[0] << ' ' << myints[1] << ' ' << myints[2] << '\n';
 
   return 0;
-}
 ```
