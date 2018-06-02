@@ -7,3 +7,8 @@
 ## Linux
 ## Windows
 ## Win Server
+
+###  Authentifizierung und autorisirung mit AD
+#### IDM & AM
+
+
