@@ -17,3 +17,18 @@
 * Autorisierung ist der Prozess der anhand von Richtlinien den Zugang zu einer authentifizierten Stelle erlaub oder verweigert
 > **AD ist kein Identity Management Tool**
 {.is-info}
+### IDM
+* Wie gehe ich mit Identitäten einer Person und deren Zugriffsrechten um
+* Organisatorischer Prozess beim Eintritt mit Rollenzuweisung
+* Benutzer ausweisen und deren Berechtigungen
+  * Auch Zeitmanagement
+  * AD
+  * Zugang zu einem Zimmer
+  * Welche Rechte habe ich, wer ist der Identitätshalter
+* Eine Person kann ein oder mehrere Accounts haben, ein Account hat nur eine Person
+* Service Account hat keinen Namen, ist aber einem Benutzer zugewiesen
+* Der IDM Ablauf muss zuerst auf Papier gebracht werden.
+* Austrittsprozess muss auch beachtet werden
+* Rechte auf Share: nicht über Helpdesk, sondern über ein Formular direkt im Business. Anfragen ohne einen Umweg über den Helpdesk.
+
+![Lebenszyklus](/uploads/images/dokus/vdbs/3.2idm.png "LLebenszyklus")
