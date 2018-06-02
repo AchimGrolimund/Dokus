@@ -31,4 +31,4 @@
 * Austrittsprozess muss auch beachtet werden
 * Rechte auf Share: nicht über Helpdesk, sondern über ein Formular direkt im Business. Anfragen ohne einen Umweg über den Helpdesk.
 
-![Lebenszyklus](/uploads/images/dokus/vdbs/3.2idm.png "LLebenszyklus")
+![Lebenszyklus](/uploads/dokus/3.2idm.png "LLebenszyklus")
