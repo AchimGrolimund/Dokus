@@ -12,7 +12,7 @@
 
 ## BS
 
-* [Doku Vordiplom](Dokus/BS/vordiplom_bs)
+* [Doku Vordiplom](Dokus/BS/vordiplombs)
 * [LinuxCommands](linuxcommands)
 * [Unterricht vom 3.3.18](bs3318)
 
