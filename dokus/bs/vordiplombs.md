@@ -4,11 +4,11 @@
 > Hier entsteht eine Zusammenfassung für die unteren 3 Themen, aufgebaut aus den Unterlagen und den einzelnen Dokus.
 {.is-info}
 
-## Linux
-## Windows
-## Win Server
+# Linux
+# Windows
+# Win Server
 
-###  Authentifizierung und autorisirung mit AD
-#### IDM & AM
+##  Authentifizierung und autorisirung mit AD
+### IDM & AM
 
 
