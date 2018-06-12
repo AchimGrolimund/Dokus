@@ -23,7 +23,7 @@ bool isPrime(int number){
 
 ## Fibonacci
 
-```
+``` cpp
 //<--Fibonacci Rekursive-->
 int fibRe(int n) {
     if (n == 1 || n == 2) return 1;
