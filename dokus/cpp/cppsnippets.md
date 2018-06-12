@@ -21,6 +21,31 @@ bool isPrime(int number){
 }
 ```
 
+## Fibonacci
+
+```
+//<--Fibonacci Rekursive-->
+int fibRe(int n) {
+    if (n == 1 || n == 2) return 1;
+    else return fibRe(n - 1) + fibRe(n - 2);
+}
+
+//<--Fibonacci Iterativ-->
+int fibIt(int n) {
+    int first, second, temp;
+    first = 0;
+    second = 1;
+    for (int i = 0; i < n; ++i) {
+        temp = first + second;
+        second = first;
+        first = temp;
+    }
+    return first;
+}
+```
+
+
+
 ## GGT berechnen
 
 ``` cpp
