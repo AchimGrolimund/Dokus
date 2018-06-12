@@ -21,6 +21,7 @@
 * [QT Threading Tips](qtthreading)
 * [new QT5 connect Statement](qt5connectstatement)
 * [Test Dokut](cpptestdoku)
+* [**CPP Snippet Sammlung**](dokus/cpp/cppsnippets)
 
 ## RE
 * [Recht vom 7.3.18](recht1)
