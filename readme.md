@@ -8,6 +8,8 @@ Es können alle von der HF-ICT HE16 mitmachen und hier Ihre Dokues veröffentlic
 
 [HE16 MDWiki](http://138.197.185.209/)  (http://138.197.185.209/)
 
+nun auch erreichbar unter  :point_right:  http://he16-dokus.tk/
+
 ## Writer
 
 Damit ihr etwas Bearbeiten könnt oder erstellen könnt, braucht ihr Lediglich das Repo zu Clonen
@@ -19,7 +21,7 @@ git clone https://github.com/EvilAcid/Dokus.git
 //SSH
 git clone git@github.com:EvilAcid/Dokus.git
 ```
- 
+
 ```
 Note: Wichtig dabei ist aber, dass wen ihr neue Dateien erstellt, diese in der home.md einfügt wie die bisherigen, ohne das .md am ende.
 ```
