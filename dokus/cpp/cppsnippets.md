@@ -114,8 +114,6 @@ int ggtRek(int a, int b){
 ```
 
 ## Permutationen
-http://www.cplusplus.com/reference/algorithm/next_permutation/
-
 ```cpp
 // next_permutation example
 #include <iostream>     // std::cout
@@ -136,14 +134,11 @@ int main () {
   return 0;
 ```
 
+http://www.cplusplus.com/reference/algorithm/next_permutation/
 
 # Zeitmessungen
 
 ## HighResolutionClock
-
-> Die **high_resolution_clock** ist etwas genauer als die normale Zeitmessung
->
-> {.is-info}
 
 ``` cpp
 #include <chrono>
@@ -155,6 +150,9 @@ auto ende  = high_resolution_clock::now();
 	cout << endl << "Zeit: " << std::chrono::duration_cast<nanoseconds>(ende-start).count() << " ns"<<endl;
 	cout << "---------------------------------------"<<endl;
 ```
+> Die **high_resolution_clock** ist etwas genauer als die normale Zeitmessung
+>
+> {.is-info}
 
 # GUI
 ## GUI erstellen mit MainWindow
