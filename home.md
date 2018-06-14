@@ -13,14 +13,14 @@
 # Dokus
 
 ## BS
-* [Doku Vordiplom](Dokus/BS/vordiplombs)
+* [Doku Vordiplom](dokus/bs/vordiplombs)
 * [LinuxCommands](/dokus/linux/linuxcommands)
 
 ## GUI
-* [QT GUI Tips](qtgui)
-* [QT Threading Tips](qtthreading)
-* [new QT5 connect Statement](qt5connectstatement)
-* [Test Dokut](cpptestdoku)
+* [QT GUI Tips](/dokus/cpp/qtgui)
+* [QT Threading Tips](/dokus/cpp/qtthreading)
+* [new QT5 connect Statement](/dokus/cpp/qt5connectstatement)
+* [Test Dokut](/dokus/cpp/cpptestdoku)
 * [**CPP Snippet Sammlung**](dokus/cpp/cppsnippets)
 
 ## RE
@@ -31,8 +31,8 @@
 ## DB
 
 ## NET
-* [NET Test 17.3.18](nettest)
-* [IP](ip)
+* [NET Test 17.3.18](/dokus/net/nettest)
+* [IP](/dokus/net/ip)
 
 ## TI
 

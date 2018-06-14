@@ -1,5 +1,5 @@
-update.php
-update_git.sh
+*.php
+*.sh
 git_log
 *.txt
 LICENSE
