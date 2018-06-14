@@ -4,7 +4,11 @@
 <!-- SUBTITLE: Sammlung nützlicher C++ Snippets -->
 
 > Hier habe ich einige nützliche Snippets niedergeschrieben welche man immer mal wider gebrauchen kann.
-{.is-info}
+> {.is-info}
+
+> Tipp: https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
+> {.is-info}
+
 # New C++ 11 / 14 / 17
 ## For
 
@@ -20,7 +24,17 @@ int main() {
     return;
 }
 ```
+## Connect
 
+``` cpp
+connect(sender, &Sender::valueChanged,
+        receiver, &Receiver::updateValue );
+```
+### Example
+``` cpp
+	QObject::connect(this, &paintWidget::signalOpenSettingsWindow,
+                     h, &EventHandler::slotOpenSettingsWindow);
+```
 
 # Allg. Funktionen
 
