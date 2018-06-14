@@ -7,14 +7,14 @@
 # Unterricht
 ## GUI
 * [17.3.18 Moving Ball in GUI with Thread](/unterricht/gui/moveballwiththread)
+## BS
+* [Unterricht vom 3.3.18](/unterricht/bs/bs3318)
 
 # Dokus
 
 ## BS
-
 * [Doku Vordiplom](Dokus/BS/vordiplombs)
-* [LinuxCommands](linuxcommands)
-* [Unterricht vom 3.3.18](bs3318)
+* [LinuxCommands](/dokus/linux/linuxcommands)
 
 ## GUI
 * [QT GUI Tips](qtgui)
@@ -24,9 +24,9 @@
 * [**CPP Snippet Sammlung**](dokus/cpp/cppsnippets)
 
 ## RE
-* [Recht vom 7.3.18](recht1)
-* [Recht vom 21.3.18 und Prüfungsthemen](recht2)
-* [Recht vom 25.4.18 und Prüfungsthemen](recht3)
+* [Recht vom 7.3.18](/unterricht/re/recht1)
+* [Recht vom 21.3.18 und Prüfungsthemen](/unterricht/re/recht2)
+* [Recht vom 25.4.18 und Prüfungsthemen](/unterricht/re/recht3)
 
 ## DB
 
