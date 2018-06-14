@@ -1,3 +1,5 @@
+
+
 <!-- TITLE: C++ Snippets -->
 <!-- SUBTITLE: Sammlung nützlicher C++ Snippets -->
 
@@ -48,6 +50,23 @@ bool isPrime(int number){
         if(number % i == 0) return false;
     }
     return true;
+}
+```
+Performanter bei hohen Zahlen
+``` cpp
+bool isPrime(long long n){
+  if(n == 2) return true;
+  if(n == 3) return true;
+  if(n % 2 == 0) return false;
+  if(n % 3 == 0) return false;
+  int i = 5;
+  int w = 2;
+  while(i * i <= n){
+       if(n % i == 0) return false;
+       i += w;
+       w = 6 - w;
+  }
+  return true;
 }
 ```
 
@@ -133,8 +152,44 @@ int main () {
 
   return 0;
 ```
-
 http://www.cplusplus.com/reference/algorithm/next_permutation/
+
+
+# Konvertierung
+## Strings
+
+#### Wenn es nur Zahlen sind.
+Result = 4324
+``` cpp
+string str("4324");
+int result = atoi(str.c_str());
+```
+#### Zahl zu String
+``` cpp
+string result = to_string(32132312321);
+```
+#### Gros Kleinschreibung (char)
+``` cpp
+char c('C'); 
+c = tolower(c);
+c = toupper(c);
+```
+#### String in Zahl konvertieren
+result = 3235
+``` cpp
+string str("3234Test");
+int result = atoi(str.c_str());
+```
+#### Wenn String nicht mit Zahl anfängt
+Resultat 28 (Punkt wird nicht als 'Komma' gerechnet
+``` cpp
+string str("Am 28.06 ist die Schule feritg");
+int index(0);
+// Erhöt bis zuer ersten Zahl
+while(index < str.length() && !isdigit(str[index])) index++; 
+// Substring von ersten Zahl bis Ende oder erster Buchstabe
+int result = atoi(str.substr(index).c_str());
+```
 
 # Zeitmessungen
 
@@ -154,7 +209,18 @@ auto ende  = high_resolution_clock::now();
 >
 > {.is-info}
 
+## Normale Uhr
+``` cpp
+#include <time.h>
+clock_t start, stop;
+start = clock();
+// Your Code
+stop = clock();
+double duration = (double)(stop-start)/CLOCKS_PER_SEC;
+```
+
 # GUI
+
 ## GUI erstellen mit MainWindow
 
 ``` cpp
