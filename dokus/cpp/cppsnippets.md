@@ -18,7 +18,17 @@ int main() {
     return;
 }
 ```
+## Connect
 
+``` cpp
+connect(sender, &Sender::valueChanged,
+        receiver, &Receiver::updateValue );
+```
+### Example
+``` cpp
+	QObject::connect(this, &paintWidget::signalOpenSettingsWindow,
+                     h, &EventHandler::slotOpenSettingsWindow);
+```
 
 # Allg. Funktionen
 
