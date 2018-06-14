@@ -158,29 +158,29 @@ http://www.cplusplus.com/reference/algorithm/next_permutation/
 # Konvertierung
 ## Strings
 
-#### Wenn es nur Zahlen sind.
+### Wenn es nur Zahlen sind.
 Result = 4324
 ``` cpp
 string str("4324");
 int result = atoi(str.c_str());
 ```
-#### Zahl zu String
+### Zahl zu String
 ``` cpp
 string result = to_string(32132312321);
 ```
-#### Gros Kleinschreibung (char)
+### Gros Kleinschreibung (char)
 ``` cpp
 char c('C'); 
 c = tolower(c);
 c = toupper(c);
 ```
-#### String in Zahl konvertieren
+### String in Zahl konvertieren
 result = 3235
 ``` cpp
 string str("3234Test");
 int result = atoi(str.c_str());
 ```
-#### Wenn String nicht mit Zahl anfängt
+### Wenn String nicht mit Zahl anfängt
 Resultat 28 (Punkt wird nicht als 'Komma' gerechnet
 ``` cpp
 string str("Am 28.06 ist die Schule feritg");
