@@ -44,7 +44,7 @@ connect(sender, &Sender::valueChanged,
 		i++;
 	});
 ```
-###Output
+### Output
 ```xml
 0 'd'
 1 'c'
