@@ -172,8 +172,56 @@ int main () {
 ```
 http://www.cplusplus.com/reference/algorithm/next_permutation/
 
+## CheckBrakets
+
+``` cpp
+#include <iostream>
+#include <deque>
+using namespace std;
+
+bool checkBrakets(string &str) {
+	deque<char> history;
+	for (char &val : str) {
+		if (val == '(' || val == '[' || val == '{') {
+			history.push_back(val);
+		}
+		if (val == ')') {
+			if (history.back() == '(') {
+				history.pop_back();
+			} else {
+				return false;
+			}
+		}
+		if (val == ']') {
+			if (history.back() == '[') {
+				history.pop_back();
+			} else {
+				return false;
+			}
+		}
+		if (val == '}') {
+			if (history.back() == '{') {
+				history.pop_back();
+			} else {
+				return false;
+			}
+		}
+	}
+	return history.size() == 0;
+}
+
+int main() {
+	string test("({)}");
+	cout << (checkBrakets(test) ? "true" : "false") << endl;
+	return 0;
+}
+
+```
+
+
 
 # Konvertierung
+
 ## Strings
 
 ### Wenn es nur Zahlen sind.
