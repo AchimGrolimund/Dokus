@@ -7,6 +7,9 @@
 > {.is-info}
 
 > Tipp: https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/
+>
+> [Welchen STL Container Benutzen](https://images.google.ch/imgres?imgurl=https%3A%2F%2Fi.stack.imgur.com%2FG70oT.png&imgrefurl=https%3A%2F%2Fstackoverflow.com%2Fquestions%2F471432%2Fin-which-scenario-do-i-use-a-particular-stl-container&docid=grq__TtRN8Yw0M&tbnid=q0z6sP9AqAkHtM%3A&vet=1&w=984&h=964&source=sh%2Fx%2Fim)
+>
 > {.is-info}
 
 # New C++ 11 / 14 / 17
