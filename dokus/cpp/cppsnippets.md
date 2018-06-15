@@ -35,7 +35,22 @@ connect(sender, &Sender::valueChanged,
 	QObject::connect(this, &paintWidget::signalOpenSettingsWindow,
                      h, &EventHandler::slotOpenSettingsWindow);
 ```
-
+## For_Each
+```cpp
+	QString str = "abcd";
+	int i = 0;
+	for_each(str.rbegin(), str.rend(), [&i](QChar letter) {
+		qDebug() << i << letter;
+		i++;
+	});
+```
+###Output
+```xml
+0 'd'
+1 'c'
+2 'b'
+3 'a'
+```
 # Allg. Funktionen
 
 > Nützliches #Include ist #include <bits/stdc++.h>
@@ -237,3 +252,18 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent) {
 }
 ```
 
+## Is Point in Circle
+``` cpp
+void isInCircle(int circleX, int circleY, int RADIUS, int pointX, int pointY) {
+	double distance = sqrt(pow((circleX - pointX), 2)  + pow((circleY - pointY), 2) );
+	if (distance < RADIUS) {
+		// inside
+		qDebug() << "inside";
+	} else if (distance > RADIUS) {
+		// outside
+	} else {
+		// on circle
+		qDebug() << "on Circle";
+	}
+}
+```
