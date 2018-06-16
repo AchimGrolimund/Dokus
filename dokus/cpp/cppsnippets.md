@@ -245,6 +245,47 @@ int main()
 }
 ```
 
+## Distanz zwischen Planeten Berechnen
+``` cppp
+string PlanetUtil::findNextPlanet(Planet planet, list<Planet> planets){
+    double distance(0), tmp(0);
+    bool first(true);
+    string planetName;
+    //Formel : d = √ [(x2-x1)2 + (y2-y1)2 + (z2-z1)2];
+    for(Planet &obj : planets){
+        tmp = sqrt(pow(planet.getX() - obj.getX(), 2) + pow(planet.getY() - obj.getY(), 2) + pow(planet.getZ() - obj.getZ(), 2));
+        if(first){
+            distance = tmp;
+            planetName = obj.getName();
+            first = false;
+        }else{
+            if(tmp < distance){
+                distance = tmp;
+                planetName = obj.getName();
+            }
+        }
+    }
+    return planetName;
+}
+
+
+int main()
+{
+    Planet p1("Pluto", 5, 10, 23);
+    Planet p2("Mars",4,9,22);
+    Planet p3("Erde", 0, 0, 0);
+    Planet p4("Jupiter", 6,11,24);
+    list<Planet> planets;
+    //planets.push_back(p1);
+    planets.push_back(p2);
+    planets.push_back(p3);
+    planets.push_back(p4);
+
+    cout << PlanetUtil::findNextPlanet(p1, planets) << endl;
+
+    return 0;
+}
+```
 
 # Konvertierung
 
